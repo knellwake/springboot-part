@@ -1,0 +1,27 @@
+
+# yaml | yml 有层次，可以继承配置文件格式
+
+server:
+  port: 80
+  servlet:
+    context-path: /doug
+
+# 自定义 注意 key:空格 值
+#  key:后面加一个空格再写值
+doug:
+  info:
+    name: dougwake
+    age: 22
+  user:
+    username: root
+    pwd: root123
+#    集合的格式 -
+    gfs:
+      - a
+      - b
+      - b
+spring:
+  profiles:
+    active: test,dev # 激活外部的配置 application-test | application-dev
+                      # 外部配置的key和当前key 重复时 外部的会覆盖当前内部的
+                        # jar --active=test
