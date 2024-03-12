@@ -1,0 +1,12 @@
+#相关的Web配置
+server:
+  servlet:
+    context-path: /boot #设置项目根路径
+  port: 80 #默认是8080
+
+spring:
+  web:
+    resources:
+      static-locations: classpath:/webapp #配置静态资源文件
+      #一旦在这配置了，那么默认的文件夹就被覆盖了，全部失效，只能使用配置的默认文件夹
+      #外部访问时，不需要加文件夹名的前缀，直接 /静态资源 即可
