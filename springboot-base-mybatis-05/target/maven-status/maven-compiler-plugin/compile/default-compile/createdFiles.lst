@@ -1,0 +1,6 @@
+com\wake\controller\UserController.class
+com\wake\MybatisMain.class
+com\wake\pojo\User.class
+com\wake\service\UserService.class
+com\wake\mapper\UserMapper.class
+com\wake\advice\LogAdvice.class
