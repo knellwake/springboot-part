@@ -1,2 +1,4 @@
+com\wake\controller\UserController.class
 com\wake\Main.class
 com\wake\pojo\User.class
+com\wake\mapper\UserMapper.class
