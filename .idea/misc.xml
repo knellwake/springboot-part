@@ -9,10 +9,13 @@
         <option value="$PROJECT_DIR$/springboot-base-springmvc-03/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-base-druid-04/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-base-mybatis-05/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-base-parameter-06/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-07/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-integrate-07/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
