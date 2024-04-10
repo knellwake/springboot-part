@@ -47,3 +47,7 @@ mybatis:
     log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
   type-aliases-package: com.wake.pojo # 配置别名 批量将包下的类，设置别名都为首字母小写
 #  mapper-locations: classpath:/mappers/*.xml # mapperxml位置 使用默认位置/mapper 就注释了
+robot:
+  name: 整合1
+  age: 26
+  email: 666@qq.com

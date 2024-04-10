@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "robot",
+      "type": "com.wake.boot.starter.robot.propertites.RobotPropertites",
+      "sourceType": "com.wake.boot.starter.robot.propertites.RobotPropertites"
+    }
+  ],
+  "properties": [
+    {
+      "name": "robot.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.wake.boot.starter.robot.propertites.RobotPropertites"
+    },
+    {
+      "name": "robot.email",
+      "type": "java.lang.String",
+      "sourceType": "com.wake.boot.starter.robot.propertites.RobotPropertites"
+    },
+    {
+      "name": "robot.name",
+      "type": "java.lang.String",
+      "sourceType": "com.wake.boot.starter.robot.propertites.RobotPropertites"
+    }
+  ],
+  "hints": []
+}

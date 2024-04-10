@@ -1,5 +1,6 @@
 package com.wake;
 
+import com.wake.boot.starter.robot.annotation.EnableRobot;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,6 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @MapperScan("com.wake.mapper")
 @SpringBootApplication
+//@EnableRobot
 public class Main {
     public static void main(String[] args) {
         SpringApplication.run(Main.class,args);
